@@ -67,8 +67,12 @@ button {
   align-items: center;
   gap: 5px;
   padding: 0.5rem;
+  border: 0px;
   border-radius: 0.5rem;
   margin-bottom: 2rem;
+}
+button:hover{
+  background-color: hsl(212, 21%, 14%);
 }
 .material-symbols-outlined {
   font-size: 20px !important;
